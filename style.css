@@ -1,0 +1,115 @@
+#logo{
+    width: 314px;
+}
+.logo{
+    padding-top: 26px;
+    text-align: center;
+    height: 0 auto;
+}
+.neal{
+    width: 139px;
+    transition: .1s;
+}
+.neal:hover{
+    scale: 1.04;
+    transition: .1s;
+}
+#password-box{
+    padding-top: 76px;
+    width: 520px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.rules {
+    padding-top: 30px;
+    width: 520px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+.rule {
+    width: 485px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 1px solid green;
+}
+.rule-title {
+    background-color: #AEF3AE;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+}
+
+.rule-title p {
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.rule-text {
+    background-color: #E3FFE3;
+    padding: 20px 10px;
+    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rule-text p {
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.bad{
+    border: 1px solid red;
+}
+
+.bad-title {
+    background-color: #FFC7C7;
+}
+
+.bad-text{
+    background-color: #FFECEC;
+}
+
+input{
+    /* text-align: center; */
+    width: 453px;
+    padding: 15px;
+    font-size: 28px;
+    height: 33px;
+    border: 1px solid #9d9d9d;
+    border-radius: 10px;
+    font-family: monospace;
+    color: #000;
+}
+input:focus{
+    outline: none;
+    border: 1px solid #000;
+}
+#label{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 8px;
+    font-size: 16px;
+    text-align: left;
+}
+.password-length{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+    display: flex;
+    align-items: center;
+}
+.sponsors{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

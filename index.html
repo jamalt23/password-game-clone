@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>The Best Website In The World</title>
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+</head>
+<body style="background-color: #FFFAE9;">
+    <!-- <audio autoplay src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3" type="audio/mpeg" class="media-document audio mac"></audio> -->
+    <!-- <video controls="" autoplay src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg" class="media-document audio mac"></video> -->
+    <div class="neal-div" >
+        <img src="./img/neal-fun.png" alt="NEAL.FUN" class="neal">
+    </div>
+    <div class="logo">
+        <img id="logo" src="./img/logo.svg" alt="*The Password Game">
+    </div>
+    <div id="password-box">
+            <div id="label" >Please choose a password</div>
+            <div style="display: flex;">
+                <input spellcheck="false" type="text" oninput="password_game(this.value)" name="password" id="password">
+                <p class="password-length" style="margin-left: 10px;"></p>
+            </div>
+    </div>
+    <div class="rules" id="rules">
+        
+    </div>
+    <script src="./password_game.js"></script>
+</body>
+</html>
