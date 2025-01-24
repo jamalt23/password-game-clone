@@ -4,7 +4,6 @@ body {
 }
 
 #logo {
-    width: 140px;
     transition: .1s;
     &:hover { scale: 1.05; }
 }
