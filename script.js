@@ -49,9 +49,9 @@ const rules = [
         rule: "Your password must include one of our sponsors:",
         attachment: `
         <div class="d-flex align-items-baseline justify-content-evenly">
-            <img src="../img/apple-logo.png" alt="" class="sponsor" height="85"></img>
-            <img src="../img/x-logo.png" alt="𝕏" class="sponsor" height="70"></img>
-            <img src="../img/mcdonalds.png" alt="ᗰ" class="sponsor" height="76"></img>
+            <img src="img/apple-logo.png" alt="" class="sponsor" height="85"></img>
+            <img src="img/x-logo.png" alt="𝕏" class="sponsor" height="70"></img>
+            <img src="img/mcdonalds.png" alt="ᗰ" class="sponsor" height="76"></img>
         </div>`,
         check: password => containSponsor(password)
     },
@@ -70,7 +70,7 @@ const rules = [
 function renderRule({id, rule, attachment}, isValid = false) {
     const status = isValid ? 'valid' : 'invalid';
     const isAlreadyRendered = $(`.rule#${id}`).length > 0;
-    
+
     if (isAlreadyRendered) {
         const $rule = $(`.rule#${id}`);
         if (!$rule.hasClass(status)) {
